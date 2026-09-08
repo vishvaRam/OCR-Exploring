@@ -1,0 +1,118 @@
+[
+  {
+    "bbox": [
+      422,
+      910,
+      748,
+      1019
+    ],
+    "category": "Text",
+    "text": "आयकर विभाग\nINCOME TAX DEPARTMENT"
+  },
+  {
+    "bbox": [
+      796,
+      895,
+      866,
+      1004
+    ],
+    "category": "Picture"
+  },
+  {
+    "bbox": [
+      913,
+      883,
+      1196,
+      983
+    ],
+    "category": "Text",
+    "text": "भारत सरकार\nGOVT. OF INDIA"
+  },
+  {
+    "bbox": [
+      417,
+      1036,
+      578,
+      1197
+    ],
+    "category": "Picture"
+  },
+  {
+    "bbox": [
+      592,
+      1007,
+      946,
+      1122
+    ],
+    "category": "Text",
+    "text": "स्थायी लेखा संख्या कार्ड\nPermanent Account Number Card\nCUUPC0479F"
+  },
+  {
+    "bbox": [
+      979,
+      1007,
+      1219,
+      1240
+    ],
+    "category": "Picture"
+  },
+  {
+    "bbox": [
+      430,
+      1197,
+      714,
+      1254
+    ],
+    "category": "Text",
+    "text": "नाम / Name\nCHALLA NAGAMANI"
+  },
+  {
+    "bbox": [
+      430,
+      1268,
+      718,
+      1337
+    ],
+    "category": "Text",
+    "text": "पिता का नाम / Father's Name\nHUSSIAN PALAKETI"
+  },
+  {
+    "bbox": [
+      434,
+      1351,
+      690,
+      1426
+    ],
+    "category": "Text",
+    "text": "जन्म की तारीख / Date of Birth\n01/01/1997"
+  },
+  {
+    "bbox": [
+      838,
+      1329,
+      992,
+      1368
+    ],
+    "category": "Picture"
+  },
+  {
+    "bbox": [
+      830,
+      1377,
+      1035,
+      1414
+    ],
+    "category": "Text",
+    "text": "हस्ताक्षर / Signature"
+  },
+  {
+    "bbox": [
+      1154,
+      1343,
+      1219,
+      1369
+    ],
+    "category": "Text",
+    "text": "38123"
+  }
+]
