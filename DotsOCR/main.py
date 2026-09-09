@@ -2,22 +2,23 @@ import os
 
 from dots_ocr.parser import DotsOCRParser
 
-MODEL_NAME = "LLM"                 # Model name passed to `vllm serve --served-model-name`
-PDF_PATH = r"KVB_Data\Document_Per_Account_Vechicle_Loan\1259775000000530\KFS_Statement\KFS S_019321_05062026_H12M54S36.pdf"
-OUTPUT_DIR = "./output_results"      # Directory where marked images & JSONs will be saved
-
+MODEL_NAME = "Vishva007/dots.mocr-W4A16-AutoRound-GPTQ"
+PDF_PATH = r"Docs/pan2.pdf"
+OUTPUT_DIR = "./Output-Quant/example-4"
+IP="213.173.109.172"
+PORT=34923
 
 def main():
     # 2. Instantiate DotsOCRParser
     parser = DotsOCRParser(
-        ip="192.9.200.29",  
-        port="8910",
+        ip=IP,  
+        port=PORT,
         model_name=MODEL_NAME,
         temperature=0.1,
         top_p=0.9,
-        dpi=200,                        # Rendering resolution for PDF page conversion
+        dpi=250,                        # Rendering resolution for PDF page conversion
         max_completion_tokens=11384,
-        num_thread=6,                   # Parallel thread count for processing multi-page PDFs
+        num_thread=10,                   # Parallel thread count for processing multi-page PDFs
         output_dir=OUTPUT_DIR,
         use_hf=False                    # False uses your remote vLLM endpoint
     )
