@@ -6,3 +6,4 @@ python-dotenv
 tqdm
 ruff
 requests
+pydantic

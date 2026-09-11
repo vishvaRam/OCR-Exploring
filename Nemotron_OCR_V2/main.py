@@ -145,7 +145,7 @@ def process_pdf_with_nemotron(
 
 
 if __name__ == "__main__":
-    pdf_file = "Docs/pan3.pdf"
+    pdf_file = "Data/RC copy of Karunanithi_019824_17072026_H11M57S0.pdf"
     process_pdf_with_nemotron(
         pdf_path=pdf_file,
         output_dir="output_nemotron_results",

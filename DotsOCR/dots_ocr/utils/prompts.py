@@ -40,6 +40,8 @@ dict_promptmode_to_prompt = {
     # prompt_free_qa: general prompt 
     "prompt_general": """ """,
 
+    "prompt_markdown": """Convert the content in this image to Markdown format.""",
+
     # "prompt_table_html": """Convert the table in this image to HTML.""",
     # "prompt_table_latex": """Convert the table in this image to LaTeX.""",
     # "prompt_formula_latex": """Convert the formula in this image to LaTeX.""",
